@@ -3,11 +3,9 @@ from datetime import datetime
 
 start_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 9)
 finish_time = datetime(datetime.now().year, datetime.now().month, datetime.now().day, 20, 16)
-datetime_now = datetime.now()
 
 print(start_time)
 print(finish_time)
-print(datetime_now)
 
 
 hosts = r'C:\Windows\System32\drivers\etc\hosts'
